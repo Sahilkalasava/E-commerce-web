@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #2f351f;
+    z-index: 9;
+}
+
+.nav{
+    padding: 10px 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.companyname{
+    font-style:courier;
+    position: sticky;
+    top:0;
+    font-size: 50px;
+    color:rgb(44, 112, 181);
+    left: 20px;
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 10px;
+}
+.brand-logo{
+    height: 70px;
+
+}
+
+.nav-items{
+    display: flex;
+    align-items: center;
+  
+}
+
+.search{
+    width: 500px;
+    display: flex;
+    
+}
+
+.search-box{
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 2px solid #010101;
+    text-transform: capitalize;
+    background: white;
+    color: black;
+    outline: black;
+}
+
+.search-btn{
+    width: 20%;
+    height: 40px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #33357e;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 15px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.search-box::placeholder{
+    color: #a9a9a9;
+}
+
+.nav-items a{
+    margin-left: 20px;
+}
+
+.nav-items a img{
+    width: 30px;
+}
+.links-container{
+    width: 100%;
+    display: flex;
+    padding: 10px 10vw;
+    justify-content: center;
+    list-style: none;
+    border-top: 4px solid black;
+    background-color:rgb(3, 3, 3);
+}
+
+.link{
+    text-transform: capitalize;
+    padding: 0 10px;
+    margin: 0 5px;
+    text-decoration:white;
+    color: white;
+    opacity: 0.5;
+    transition: .5s;
+}
+
+.link:hover{
+    opacity: 1;
+}
